@@ -17,3 +17,17 @@ library(tidyverse)
     ## -- Conflicts ---------------------------------------------------------- tidyverse_conflicts() --
     ## x dplyr::filter() masks stats::filter()
     ## x dplyr::lag()    masks stats::lag()
+
+``` r
+ me<- c(1, 2, 3, 3,4)
+ y<- c("today", "tommorow", "yesterday", "last_night", "today_morning")
+ vik <- data.frame(y, me)
+vik
+```
+
+    ##               y me
+    ## 1         today  1
+    ## 2      tommorow  2
+    ## 3     yesterday  3
+    ## 4    last_night  3
+    ## 5 today_morning  4

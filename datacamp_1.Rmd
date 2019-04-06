@@ -5,12 +5,13 @@ date: "April 4, 2019"
 output: github_document
 ---
 
-```{r}
+```{r vect}
 library(tidyverse)
 
 
  me<- c(1, 2, 3, 3,4)
  y<- c("today", "tommorow", "yesterday", "last_night", "today_morning")
  vik <- data.frame(y, me)
+vik
 ```
 
