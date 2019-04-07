@@ -14,5 +14,9 @@ library(tidyverse)
  vik <- data.frame(y, me)
 vik
 subset (vik, subset= me < 3)
+
+a <- c(100, 2000, 1, 3000)
+order(a)
+a[order(a)]
 ```
 

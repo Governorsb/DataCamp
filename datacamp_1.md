@@ -39,3 +39,16 @@ subset (vik, subset= me < 3)
     ##          y me
     ## 1    today  1
     ## 2 tommorow  2
+
+``` r
+a <- c(100, 2000, 1, 3000)
+order(a)
+```
+
+    ## [1] 3 1 2 4
+
+``` r
+a[order(a)]
+```
+
+    ## [1]    1  100 2000 3000
