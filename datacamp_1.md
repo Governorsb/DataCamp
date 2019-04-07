@@ -31,3 +31,11 @@ vik
     ## 3     yesterday  3
     ## 4    last_night  3
     ## 5 today_morning  4
+
+``` r
+subset (vik, subset= me < 3)
+```
+
+    ##          y me
+    ## 1    today  1
+    ## 2 tommorow  2

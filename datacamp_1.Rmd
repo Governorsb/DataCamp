@@ -13,5 +13,6 @@ library(tidyverse)
  y<- c("today", "tommorow", "yesterday", "last_night", "today_morning")
  vik <- data.frame(y, me)
 vik
+subset (vik, subset= me < 3)
 ```
 
