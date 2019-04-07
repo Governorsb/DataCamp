@@ -52,3 +52,14 @@ a[order(a)]
 ```
 
     ## [1]    1  100 2000 3000
+
+``` r
+vik[order(vik$me), ]
+```
+
+    ##               y me
+    ## 1         today  1
+    ## 2      tommorow  2
+    ## 3     yesterday  3
+    ## 4    last_night  3
+    ## 5 today_morning  4
